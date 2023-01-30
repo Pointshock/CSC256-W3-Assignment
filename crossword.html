@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crossword Puzzle</title>
+    <link rel="stylesheet" href="crossword.css">
+    <script src="crossword.js"></script>
+</head>
+<body>
+     <!-- Table for crossword puzzle -->
+     <!-- If there is a class='cell' then the cell will be white-->
+     <!-- Chocolate, Pear, Orange -->
+    <table id="crossword">
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="cell"></td>
+        </tr>
+        <tr>
+            <td class="cell"></td>
+            <td class="cell"></td>
+            <td class="cell"></td>
+            <td class="cell"></td>
+            <td class="cell"></td>
+            <td class="cell"></td>
+            <td class="cell"></td>
+            <td class="cell"></td>
+            <td class="cell"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td class="cell"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="cell"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td class="cell"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="cell"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td class="cell"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td class="cell"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td class="cell"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <!--Table to hold clue text-->
+    <table>
+        <tr>
+            <td class="text">1 Across: A delicious treat made with cocoa beans</td>
+        </tr>
+        <tr>
+            <td class="text">1 Down: Both a fruit and a color</td>
+        </tr>
+        <tr>
+            <td class="text">2 Down: A green fruit that bruises easily</td>
+        </tr>
+    </table>
+    <script>
+        // This function will load the crossword puzzle and dispay it on the page
+        loadCrossword();
+    </script>
+</body>
+</html>

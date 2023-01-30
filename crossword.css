@@ -1,0 +1,27 @@
+/* Design elements for table */
+table{ 
+    border: 1px solid #000000;
+    padding: 0;
+}
+
+/* Design elements for table cells */
+td{
+    background-color: black;
+    border: 1px solid #000000;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+}
+
+/* Design elements for table cells with a letter */
+.cell{
+    background-color: white;
+}
+
+/* Design elements for clue text */
+.text{
+    color: black;
+    background-color: white;
+    width: 400px;
+    height: 20px;
+}
